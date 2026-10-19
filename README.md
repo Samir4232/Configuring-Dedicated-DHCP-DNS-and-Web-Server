@@ -260,6 +260,4 @@ The webpage hosted on the Web Server should open successfully.
 
 ## Network Topology
 
-![Enterprise Network Topology](## Network Topology
-
-![Enterprise Network Topology](topology.png))
+![Enterprise Network Topology](topology-screenshot.png)
