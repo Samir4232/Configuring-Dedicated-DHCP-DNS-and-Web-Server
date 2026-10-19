@@ -1,34 +1,34 @@
-# 🌐 LAB 30 - Configuring Dedicated DHCP, DNS and Web Server
+#  LAB 1 - Configuring Dedicated DHCP, DNS and Web Server
 
-## 🎯 Objective
+## Objective
 
 Configure dedicated DHCP, DNS, and Web Servers in a LAN environment. Configure DHCP for automatic IP assignment, DNS for name resolution, and Web Server hosting. Verify web access using a domain name.
 
 ---
 
-## 🖧 Topology
+##  Topology
 
-### 🏢 Office LAN
+### Office LAN
 
 * 1 × Cisco 2960-24TT Switch
 * 5 × PCs
 * Network: `192.168.10.0/24`
 
-### 🏢 Data Center LAN
+###  Data Center LAN
 
 * 1 × Cisco 2960-24TT Switch
 * 1 × DHCP Server
 * 1 × DNS Server
 * 1 × Web Server
 
-### 🛜 Router
+###  Router
 
 * Cisco 2911 Router
 * IP Address: `192.168.10.1`
 
 ---
 
-## 📋 Addressing Table
+##  Addressing Table
 
 | Device         | IP Address   |
 | -------------- | ------------ |
@@ -63,9 +63,9 @@ do wr
 
 ---
 
-# 🖥️ Step 2: Configure Server IP Addresses
+# Step 2: Configure Server IP Addresses
 
-## 📡 DHCP Server
+##  DHCP Server
 
 ```text
 IP Address      : 192.168.10.5
@@ -74,7 +74,7 @@ Default Gateway : 192.168.10.1
 DNS Server      : 192.168.10.6
 ```
 
-## 🌍 DNS Server
+##  DNS Server
 
 ```text
 IP Address      : 192.168.10.6
@@ -83,7 +83,7 @@ Default Gateway : 192.168.10.1
 DNS Server      : 192.168.10.6
 ```
 
-## 🌐 Web Server
+##  Web Server
 
 ```text
 IP Address      : 192.168.10.7
@@ -94,7 +94,7 @@ DNS Server      : 192.168.10.6
 
 ---
 
-# 📡 Step 3: Configure DHCP Server
+#  Step 3: Configure DHCP Server
 
 Navigate to:
 
@@ -118,7 +118,7 @@ Click **Add**.
 
 ---
 
-# 💻 Step 4: Configure Client PCs
+#  Step 4: Configure Client PCs
 
 For all PCs:
 
@@ -136,7 +136,7 @@ Desktop
 
 ---
 
-# 🌍 Step 5: Configure DNS Server
+#  Step 5: Configure DNS Server
 
 Navigate to:
 
@@ -157,7 +157,7 @@ Save the configuration.
 
 ---
 
-# 🌐 Step 6: Configure Web Server
+#  Step 6: Configure Web Server
 
 Navigate to:
 
@@ -198,7 +198,7 @@ Save the file.
 
 ---
 
-# 🔍 Verification
+#  Verification
 
 ## Verify DHCP
 
@@ -248,7 +248,7 @@ The webpage hosted on the Web Server should open successfully.
 
 ---
 
-# 🎉 Result
+#  Result
 
 ✅ DHCP Server Successfully Assigned IP Addresses
 
@@ -258,4 +258,8 @@ The webpage hosted on the Web Server should open successfully.
 
 ✅ Clients Successfully Accessed Website Using Domain Name
 
-🏆 **LAB 30 Completed Successfully!**
+## Network Topology
+
+![Enterprise Network Topology](## Network Topology
+
+![Enterprise Network Topology](topology.png))
